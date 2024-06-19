@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*start of navbar*/
+
+nav{
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+    padding: 30px 10%;
+    height: 8%;
+    top: 0%;
+	z-index: 1000;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+  .navbar{
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+	padding: 18px 0;
+	transition: all 0.3s ease;
+    background-color: #fff;
+  }
+  
+  .navbar .content{
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+  }
+  
+
+  .navbar .menu-list{
+	display: inline-flex;
+	margin-left: 1070px;
+  }
+
+  .menu-list li{
+	list-style: none;
+    
+  }
+  
+  .menu-list li .nav-txt{
+    display: inline-flex;
+    color: #000000;
+    font-size: 17px;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    margin-right: 340px;
+    margin-left: -280px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    opacity: 50%;
+  }
+
+  .menu-list li .nav-txt:hover{
+    color: #FF4500;
+    cursor: pointer;
+    opacity: 100%;
+  }
+
+  .logo-1 {
+    position: relative;
+    top: 26%;
+    left: 12%;
+    height: 10%;
+    width: 7%;
+}
+
+.contact{
+    min-height: 100vh;
+    background-color: #F2F6F7;
+    padding: 50px;
+    text-align: center;
+}
+.container{
+    margin-top: 10%;
+    max-width: 800px;
+    margin:10% auto;
+}
+.container h2{
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: black;
+}
+.contact-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+.contact-form{
+    text-align: left;
+}
+.contact-form h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: black;
+}
+.form-group{
+    margin-bottom: 20px;  
+}
+input, textarea{
+    width:100%;
+    padding:12px;
+    border-radius: 8px;
+    border:none;
+    background-color: #000;
+    color: #fff;
+}
+input:focus,
+textarea:focus{
+    outline:none;
+    box-shadow: 0 0 8px #bbb;
+}
+button{
+    display: inline-block;
+    padding:12px 24px;
+    background-color: #FF4500;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+button:hover{
+    background-color: #ff7446;
+}
+.contact-info{
+    text-align: left;
+}
+.contact-info h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: black;
+}
+.contact-info p{
+    margin-bottom: 10px;
+    color: #888;
+}
+.contact-info i{
+    color: black;
+    margin-right: 10px;
+}
+@media screen and (max-width: 768px){
+    .container{
+        padding:20px;
+    }
+    .contact-wrapper{
+        grid-template-columns: 1fr;
+     
+    }    
+}

@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*start of navbar*/
+
+nav{
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+    padding: 30px 10%;
+    height: 8%;
+    top: 0%;
+	z-index: 1000;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+  .navbar{
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+	padding: 18px 0;
+	transition: all 0.3s ease;
+    background-color: #fff;
+  }
+  
+  .navbar .content{
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+  }
+  
+
+  .navbar .menu-list{
+	display: inline-flex;
+	margin-left: 1070px;
+  }
+
+  .menu-list li{
+	list-style: none;
+    
+  }
+  
+  .menu-list li .nav-txt{
+    display: inline-flex;
+    color: #000000;
+    font-size: 17px;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    margin-right: 340px;
+    margin-left: -280px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    opacity: 50%;
+  }
+
+  .menu-list li .nav-txt:hover{
+    color: #FF4500;
+    cursor: pointer;
+    opacity: 100%;
+  }
+
+  .logo-1 {
+    position: relative;
+    top: 26%;
+    left: 12%;
+    height: 10%;
+    width: 7%;
+}
+
+section {
+    height: 200vh;
+    background-color: #F2F6F7;
+}
+
+
+.main-container {
+    position: relative;
+    top: 15%;
+    
+}
+
+.wrapper {
+    position: relative;
+    max-width: 75%;
+    margin: auto;
+}
+
+.wrapper > p,
+.wrapper > h1 {
+    margin: 1.5rem 0;
+    text-align: center;
+    color: #000000
+}
+
+.wrapper > h1 {
+    letter-spacing: 3px;
+}
+
+.accordion {
+   
+    color: #000000;
+    cursor: pointer;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 2rem 2.5rem;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.accordion i {
+    font-size: 1.6rem;
+}
+
+.active, .accordion:hover {
+    background-color: #FF4500;
+    color: white;
+}
+
+.pannel {
+    padding: 0 2rem 2.5rem 2rem;
+    background-color: white;
+    overflow: hidden;
+    border: 1px solid black;
+    display: none;
+}
+
+.pannel p {
+    position: relative;
+    margin: 2%;
+    color: #000;
+    font: 1.2rem;
+    line-height: 200%;
+}
+
+.faq {
+    margin: 10px 0;
+}
+
+.faq.active {
+    border: none;
+}

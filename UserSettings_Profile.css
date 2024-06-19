@@ -1,0 +1,260 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 115vh;
+    overflow-x: hidden;
+  }
+
+
+
+
+
+  /*USER SETTING START*/
+
+  .main-container {
+    background-color: black;
+    height: 130vh;
+  }
+
+  .user-container {
+    position: relative;
+    top: 8%;
+  }
+  
+    
+.user_settings {
+    position: relative;
+    top: 80px;
+    left: 50px;
+    font-size: 10px;
+    color: #fff;
+}
+.nav_button {
+    position: relative;
+    top: 80px;
+    left: 50px;
+    word-spacing: 80px;
+}
+.setting-btn {
+    background: none;
+    border: none;
+    font-size: 15px;
+    color: #A5A5A5;
+    padding: 15px 20px;
+    cursor: pointer;
+    position: relative;
+    border-bottom: 1700px;
+}
+
+.active {
+    background: none;
+    border: none;
+    font-size: 15px;
+    color: #A5A5A5;
+    padding: 15px 20px;
+    cursor: pointer;
+    position: relative;
+    border-bottom: 1700px;
+}
+
+.active::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width 0.3s;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.active::after {
+    width: 100%;
+}
+.active:hover::after {
+    width: 100%;
+}
+.nav_button hr {
+    margin: 0;
+    position: relative;
+    width: 1250px;
+    color: #A5A5A5;
+}
+.active {
+    color: #fff;
+}
+.setting-btn::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width 0.3s;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.setting-btn.active::after {
+    width: 100%;
+}
+.setting-btn:hover::after {
+    width: 100%;
+}
+.customize_profile h1 {
+    position: relative;
+    top: 80px;
+    left: 50px;
+    color: #fff;
+    font-size: 25px;
+} 
+.customize_profile h2 {
+    position: relative;
+    top: 80px;
+    left: 50px;
+    color: #A5A5A5;
+    font-size: 10px;
+}
+.customize_profile hr {
+    position: relative;
+    top: 80px;
+    left: -130px;
+    width: 1000px;
+    color: #A5A5A5;
+}
+.display_name h1 {
+    position: relative;
+    top: 80px;
+    left: 50px;
+    color: #fff;
+    font-size: 25px;
+}
+.display_name h2 {
+    position: relative;
+    top: 70px;
+    left: 50px;
+    color: #A5A5A5;
+    font-size: 13px;
+}
+.txt_field1 input{
+    position: relative;
+    top: 75px;
+    left: 50px;
+    color: white;
+    width: 1000px;
+    height: 35px;
+    border-radius: 10px 10px 10px 10px;
+    background: #1A282D;
+    outline: none;
+}
+
+.txt_field1 h2 {
+    position: relative;
+    top: 75px;
+    left: 60px;
+    color: #A5A5A5;
+    font-size: 13px;
+}
+
+.about h1 {
+    position: relative;
+    top: 120px;
+    left: 50px;
+    color: #fff;
+    font-size: 25px;
+}
+
+.about h2 {
+    position: relative;
+    top: 120px;
+    left: 50px;
+    color: #A5A5A5;
+    font-size: 13px;
+}
+
+.txt_field2 input{
+    position: relative;
+    top: 120px;
+    left: 50px;
+    color: white;
+    width: 1000px;
+    height: 150px;
+    border-radius: 10px 10px 10px 10px;
+    background: #1A282D;
+    outline: none;
+}
+
+.txt_field2 h2 {
+    position: relative;
+    top: 120px;
+    left: 60px;
+    color: #A5A5A5;
+    font-size: 13px;
+}
+
+.icon-26{
+  position: relative;
+  top: -8%;
+  left:7%; 
+  z-index: 1;
+}
+
+.icon-27{
+  position: relative;
+  top: 7%;
+  left: -4%; 
+  z-index: 1;
+}
+
+.icon-28{
+  position: relative;
+  top: 64.8%;
+  left: -38.5%;
+}
+
+
+.icon-24{
+  position: relative;
+  top: 2%;
+  left: 71.5%;
+}
+
+.icon-25{
+  position: relative;
+  top: 2%;
+  left: 73.2%;
+}
+
+.icon-29{
+  position: relative;
+  top: 20%;
+  left: 0%;
+}
+
+.User_Name{
+  position: relative;
+  top: -.8em;
+  left: 11%;
+  font-family: 12px;
+}
+
+.online{
+  position: relative;
+  top: 15%;
+  left: -37%;
+  font-size: 12px;
+}
+
+.acc,
+.profile,
+.notif{
+  color: white;
+  text-decoration: none;
+}
+
+.acc,
+.notif {
+  color: #A5A5A5;
+}
